@@ -20,6 +20,7 @@ A structured TypeScript learning workspace based on the **TypeScript for Playwri
 | 4 | Operators | `Lecture4-TypeScript-Guide.md` | `Lecture4-OperatorsDemo.ts` · `Lecture4-IncrementAndDecrementOperators.ts` · `Lecture4-TernaryOperator.ts` |
 | 5 | Conditional Statements | `Lecture5-TypeScript-Guide.md` | `Lecture5-ConditionalStatements.ts` · `Lecture5-Solutions.ts` |
 | 6 | Looping Statements | `Lecture6-TypeScript-Guide.md` | `Lecture6-WhileLoop.ts` · `Lecture6-DoWhileLoop.ts` · `Lecture6-ForLoop.ts` · `Lecture6-BreakAndContinue.ts` · `Lecture6-Solutions.ts` |
+| 7 | Functions | `Lecture7-TypeScript-Guide.md` | `Lecture7-NamedFunctions.ts` · `Lecture7-AnonymousFunctions.ts` · `Lecture7-ArrowFunctions.ts` |
 
 ---
 
@@ -59,6 +60,12 @@ A structured TypeScript learning workspace based on the **TypeScript for Playwri
 - `for` — best when number of iterations is known
 - `break` — exit a loop early; `continue` — skip current iteration
 - 22 lab programs: sums, factorials, prime numbers, palindromes, digit operations, multiplication tables
+
+### Lecture 7 — Functions
+- Named functions — declared with the `function` keyword, reusable by name
+- Anonymous functions — no name, assigned to a variable
+- Arrow functions — shorter syntax using `=>` (fat arrow / lambda)
+- Optional parameters (`?`), default parameters, and rest parameters (`...`) across all three function types
 
 ---
 
