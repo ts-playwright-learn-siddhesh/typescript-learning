@@ -21,6 +21,8 @@ A structured TypeScript learning workspace based on the **TypeScript for Playwri
 | 5 | Conditional Statements | `Lecture5-TypeScript-Guide.md` | `Lecture5-ConditionalStatements.ts` · `Lecture5-Solutions.ts` |
 | 6 | Looping Statements | `Lecture6-TypeScript-Guide.md` | `Lecture6-WhileLoop.ts` · `Lecture6-DoWhileLoop.ts` · `Lecture6-ForLoop.ts` · `Lecture6-BreakAndContinue.ts` · `Lecture6-Solutions.ts` |
 | 7 | Functions | `Lecture7-TypeScript-Guide.md` | `Lecture7-NamedFunctions.ts` · `Lecture7-AnonymousFunctions.ts` · `Lecture7-ArrowFunctions.ts` |
+| 8 | Callback & Overloaded Functions | `Lecture8-TypeScript-Guide.md` | `Lecture8-CallbackFunctions.ts` · `Lecture8-OverloadedFunctions.ts` |
+| 9 | Arrays & Tuples | `Lecture9-TypeScript-Guide.md` | `Lecture9-Arrays.ts` · `Lecture9-Tuples.ts` |
 
 ---
 
@@ -66,6 +68,21 @@ A structured TypeScript learning workspace based on the **TypeScript for Playwri
 - Anonymous functions — no name, assigned to a variable
 - Arrow functions — shorter syntax using `=>` (fat arrow / lambda)
 - Optional parameters (`?`), default parameters, and rest parameters (`...`) across all three function types
+
+### Lecture 8 — Callback & Overloaded Functions
+- Callback functions — passing a function as an argument to be called after the outer function completes
+- Function overloading — multiple signatures for the same function name with different parameter types, counts, or return types
+- One implementation function handles all overload signatures using union types and `typeof` checks
+- Invalid overloading patterns TypeScript will reject
+
+### Lecture 9 — Arrays & Tuples
+- Declaring arrays: array literal (`type[]`) and generic syntax (`Array<type>`)
+- Union type arrays (`Array<string | number>`) and `any` type arrays
+- Accessing elements by index; out-of-bounds access returns `undefined`
+- Iterating with `for`, `for...in` (indexes), and `for...of` (values)
+- Passing arrays to functions and returning arrays from functions
+- Tuples — fixed-length arrays where each position has a declared type
+- Tuple arrays — arrays where each element is a tuple
 
 ---
 
