@@ -23,6 +23,7 @@ A structured TypeScript learning workspace based on the **TypeScript for Playwri
 | 7 | Functions | `Lecture7-TypeScript-Guide.md` | `Lecture7-NamedFunctions.ts` · `Lecture7-AnonymousFunctions.ts` · `Lecture7-ArrowFunctions.ts` |
 | 8 | Callback & Overloaded Functions | `Lecture8-TypeScript-Guide.md` | `Lecture8-CallbackFunctions.ts` · `Lecture8-OverloadedFunctions.ts` |
 | 9 | Arrays & Tuples | `Lecture9-TypeScript-Guide.md` | `Lecture9-Arrays.ts` · `Lecture9-Tuples.ts` |
+| 10 | Array Methods | `Lecture10-TypeScript-Guide.md` | `Lecture10-ArrayMethods.ts` |
 
 ---
 
@@ -74,6 +75,14 @@ A structured TypeScript learning workspace based on the **TypeScript for Playwri
 - Function overloading — multiple signatures for the same function name with different parameter types, counts, or return types
 - One implementation function handles all overload signatures using union types and `typeof` checks
 - Invalid overloading patterns TypeScript will reject
+
+### Lecture 10 — Array Methods
+- `push()`, `pop()`, `shift()`, `unshift()` — add/remove elements at the end or beginning
+- `concat()`, `slice()` — combine or extract without modifying the original
+- `splice()` — add, remove, or replace elements at any position
+- `indexOf()`, `includes()` — search for elements
+- `toString()` — convert array to a comma-separated string
+- `forEach()`, `map()`, `filter()`, `reduce()`, `some()`, `every()` — higher-order methods for iterating and transforming arrays
 
 ### Lecture 9 — Arrays & Tuples
 - Declaring arrays: array literal (`type[]`) and generic syntax (`Array<type>`)
